@@ -13,8 +13,37 @@ h3 {
   border-radius: 10px;
   flex-direction: row;
 }
+footer {
+  text-align: center;
+  background-color: black;
+}
+
 .pad {
   padding-left: 10%;
+}
+#stats {
+  margin: 90px 155px 50px 122px;
+}
+.white {
+  color: beige;
+}
+#social-media-stats {
+  padding: 20px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(32, 33, 34, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#social-media-stats > div > h1 {
+  font-size: 40px;
+  padding: 10px 0px;
+}
+#social-media-stats > div > p {
+  font-size: 17px;
+  text-align: center;
 }
 .card {
   width: 250px;
