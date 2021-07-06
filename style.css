@@ -8,8 +8,22 @@ body {
 h1 {
   font-size: 60px;
 }
-section {
+h2 {
+  font-size: 55px;
+}
+.flexible-container {
   display: flex;
+  margin-bottom: 150px;
+}
+.about-us {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+#rec {
+  width: 80%;
+}
+#rac {
+  width: 50%;
 }
 .bigger {
   font-size: 20px;
@@ -20,7 +34,7 @@ section {
   padding-left: 5%;
 }
 .half-width img {
-  width: 80%;
+  width: 50%;
 }
 .link-button {
   background-image: linear-gradient(to right, tomato, red);
@@ -28,10 +42,46 @@ section {
   font-size: 30px;
   border-radius: 15px;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 15px 30px;
   color: white;
 }
 .top-banner {
   background-image: url(images/shapes/57.jpg);
   background-repeat: no-repeat;
+}
+.navbar {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.navbar .logo {
+  width: 140px;
+  height: auto;
+  padding: 20px 100px;
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: red;
+  border-radius: 2px;
 }
